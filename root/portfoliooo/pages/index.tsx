@@ -1,15 +1,15 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import { GetServerSideProps } from 'next';
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import { GetServerSideProps } from "next";
 import Head from "next/head";
 import ContainerBlock from "../components/ContainerBlock";
 // import FavouriteProjects from "../components/FavouriteProjects";
 // import LatestCode from "../components/LatestCode";
 import Hero from "../components/Hero";
-import getLatestRepos, { Repository } from "@lib/getLatestRepos";
-import userData from "@constants/data";
+import getLatestRepos, { Repository } from "../lib/getLatestRepos";
+import userData from "../constants/data";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 interface HomeProps {
   repositories: Repository[];
@@ -21,7 +21,7 @@ const Home: React.FC<HomeProps> = ({ repositories }) => {
       title="Manu Arora - Developer, Writer, Creator"
       description="This is a template built specifically for my blog - Creating a developer portfolio that gets you a job."
     >
-      <Hero color={null}/>
+      <Hero color={null} />
       {/* <FavouriteProjects /> */}
       {/* <LatestCode repositories={repositories} /> */}
     </ContainerBlock>

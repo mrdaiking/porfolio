@@ -1,7 +1,7 @@
 import React from "react";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import RainbowHighlight from "./RainbowHighlight";
-import userData from "@constants/data";
+import userData from "../constants/data";
 
 interface HeroProps {
   color: string | null;
