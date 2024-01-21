@@ -1,11 +1,11 @@
 const userData = {
     githubUsername: "manuarora700",
-    name: "Manu Arora",
-    designation: "Full-Stack Developer",
+    name: "Cuong Phuc Nguyen",
+    designation: "Software Engineer",
     avatarUrl: "/avatar.png",
-    email: "manuarorawork@gmail.com",
-    phone: "+91 9587738861",
-    address: "Jaipur, Rajasthan, India.",
+    email: "cuongphuc.npc@gmail.com",
+    phone: "+81 8078100655",
+    address: "Tokyo, Japan.",
     projects: [
       {
         title: "Tailwind Master Kit",
@@ -61,8 +61,8 @@ const userData = {
     },
     experience: [
       {
-        title: "Software Developer",
-        company: "mroads",
+        title: "Technincal Lead",
+        company: "Blayn Inc, Japan",
         year: "2021",
         companyLink: "https://mroads.com",
         desc: "Contributed to our flagship product - Panna - which is an AI powered candidate interviewing product.",
@@ -82,8 +82,8 @@ const userData = {
         desc: "Your last moment revision friend right before a Tech coding interview. Practice problems and get hired at top Product based companies.",
       },
       {
-        title: "Internship",
-        company: "Intel Corporation",
+        title: "Mobile Developer",
+        company: "YouthDev, VietNam",
         year: "2019",
         companyLink: "https://intel.com",
         desc: "Developed pothole detection system with OpenCV and computer vision, detects potholes on roads and informs the driver.",
@@ -91,14 +91,14 @@ const userData = {
       {
         title: "Graduation",
         company: "UPES, Dehradun.",
-        year: "2019",
+        year: "2018",
         companyLink: "https://upes.co.in",
         desc: "Major in Computer Science and Engineering with a CGPA of 7.0. Nobody asks this but it's okay.",
       },
       {
         title: "High School",
         company: "Delhi Public School, Jaipur.",
-        year: "2015",
+        year: "2013",
         companyLink: "https://upes.co.in",
         desc: "Subjects being PCM - I barely survived with 93.6% marks aggregate. Flex fridays, fellas.",
       },
@@ -108,10 +108,11 @@ const userData = {
     socialLinks: {
       instagram: "https://instagram.com/maninthere",
       twitter: "https://twitter.com/mannupaaji",
-      linkedin: "https://linkedin.com/in/manuarora28",
+      linkedin: "https://www.linkedin.com/in/cuongnp999",
       github: "https://github.com/manuarora700",
-      facebook: "https://facebook.com/",
+      facebook: "https://www.facebook.com/daikynguyen999",
       peerlist: "https://peerlist.io/manuarora",
+      flickr: "https://www.flickr.com/photos/cuongphucnguyen/"
     },
   };
   

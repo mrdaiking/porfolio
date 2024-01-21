@@ -1,12 +1,18 @@
 import React from "react";
 import userData from "../constants/data";
+import { useTranslation } from 'next-i18next';
+
+
 
 const AboutMe: React.FC = () => {
+
+  const { t } = useTranslation('common');
+  
     return (
         <section className="bg-white dark:bg-gray-800">
           <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
             <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
-              About Me.
+              {t('hello')}
             </h1>
           </div>
           <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">

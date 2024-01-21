@@ -21,7 +21,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
       <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-800">
         {year}
       </h1>
-      <h1 className="font-semibold text-xl">{title}</h1>
+      <h1 className="font-semibold text-xl dark:text-gray-400">{title}</h1>
       <a href={companyLink} className="text-gray-500">
         {company}
       </a>

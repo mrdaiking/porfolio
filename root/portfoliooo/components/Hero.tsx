@@ -60,8 +60,8 @@ const Hero: React.FC<HeroProps> = ({ color }) => {
             </div>
           </div>
         </div>
-      </div>
     </div>
+  </div>
   );
 };
 
